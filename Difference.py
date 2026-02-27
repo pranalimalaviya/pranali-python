@@ -1,0 +1,7 @@
+float_num = float(input("Enter a floating-point number: "))
+
+int_num = int(float_num)
+
+print(f"\nYou entered the float value: {float_num}")
+print(f"After converting to integer using int(): {int_num}")
+print("Note: int() removes the decimal part without rounding.")
