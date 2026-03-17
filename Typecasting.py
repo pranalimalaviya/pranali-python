@@ -14,3 +14,4 @@ print("Type:", type(float_value))
 
 print("\nBoolean value:", bool_value)
 print("Type:", type(bool_value))
+
