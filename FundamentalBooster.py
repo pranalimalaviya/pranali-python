@@ -11,14 +11,14 @@ print("Thank You! Here is the information we collected:\n")
 print(f"Name: {name}, Type: {type(name)}, Id: {id(name)} ")
 print(f"Age: {age}, Type: {type(age)}, Id: {id(age)} ")
 print(f"Height: {height}, Type: {type(height)}, Id: {id(height)} ")
-print(f"Number: {number}, Type: {type(number)}, Id: {id(number)} ")
+print(f"Number: {number}, Type: {type(number)}, Id: {id(number)}\n ")
 
 
 
 current_year = datetime.now().year
 birth_year = current_year - age
 
-print(f"Your birth is approximately: {birth_year} based on your age of {age}")
+print(f"Your birth is approximately: {birth_year} based on your age of {age}\n")
 
 print("Thank you for using the Personal Data Collector. Goodbye!")
 
