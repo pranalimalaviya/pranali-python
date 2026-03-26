@@ -8,12 +8,12 @@ while True:
 
     choice = input("Enter your choice:")
 
-    if choice == "1":
+    if choice == 1:
         rows = int(input("Enter the number of rows for the Pattern:"))
         for i in range(1, rows + 1):
             print("*" * i)
 
-    elif choice == "2":
+    elif choice == 2:
         start = int(input("Enter start of range: "))
         end = int(input("Enter end of range: "))
         total = 0
@@ -24,11 +24,11 @@ while True:
             else:
                 print("Number", i, "is Odd")
 
-            total += 1
+            total += i
 
         print("Sum of numbers from", start, "to", end, "is:", total)
 
-    elif choice == "3":
+    elif choice == 3:
         print("Exiting the program. Goodbye!")
     break
 else:
